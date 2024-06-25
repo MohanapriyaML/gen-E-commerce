@@ -1,9 +1,9 @@
 "use client"
 import { FormLabel } from '@mui/material';
 import React from 'react'
-import { UpFormsProps } from './types';
+import { EcFormsProps} from './types';
 
-const FormPassword = (props: UpFormsProps) => {
+const FormPassword = (props: EcFormsProps) => {
     const {children} = props;
   return (
     <FormLabel>

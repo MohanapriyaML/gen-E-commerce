@@ -1,9 +1,9 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import { UpImageProps } from './types'
+import { EcImageProps } from './types'
 
-const UpImage = ({ src, width = 300, height = 400, alt,children, ...props }:UpImageProps) => {
+const EcImage = ({ src, width = 300, height = 400, alt,children, ...props }:EcImageProps) => {
   return (
     <Image src={src} alt={alt} {...props}>
          {children} 
@@ -11,4 +11,4 @@ const UpImage = ({ src, width = 300, height = 400, alt,children, ...props }:UpIm
   )
 }
 
-export default UpImage
+export default EcImage;

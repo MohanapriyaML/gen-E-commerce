@@ -1,9 +1,9 @@
 "use client"
 import React from 'react'
-import { UpLinkProps } from './types'
 import { Link } from '@mui/material'
+import { EcLinkProps } from './types';
 
-const UpLinks = (props: UpLinkProps) => {
+const UpLinks = (props: EcLinkProps) => {
     const {children} = props;
   return (
     <Link>

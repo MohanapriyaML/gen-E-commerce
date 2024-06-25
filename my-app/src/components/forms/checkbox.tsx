@@ -1,9 +1,9 @@
 "use client"
 import { CheckBox } from '@mui/icons-material'
 import React from 'react'
-import { UpFormsProps } from './types'
+import { EcFormsProps} from './types'
 
-const FormCheckbox = (props: UpFormsProps) => {
+const FormCheckbox = (props: EcFormsProps) => {
     const {children} = props;
   return (
     <CheckBox>

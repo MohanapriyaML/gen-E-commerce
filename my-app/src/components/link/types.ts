@@ -1,5 +1,5 @@
 import React from 'react';
 
-export interface UpLinkProps {
+export interface EcLinkProps {
     children: string | React.ReactNode;
 }

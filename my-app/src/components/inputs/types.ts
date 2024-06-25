@@ -1,5 +1,5 @@
 import React from 'react';
 
-export interface UpInputProps {
+export interface EcInputProps {
     children: string | React.ReactNode;
 }

@@ -1,10 +1,10 @@
 "use clients"
 import React from 'react'
-import { UpPopoverProps } from './types';
+import { EcPopoverProps} from './types';
 import { Popover } from '@mui/material';
 
 
-const UpPopOver = (props: UpPopoverProps) => {
+const EcPopOver = (props: EcPopoverProps) => {
     const {children,open} = props;
   return (
     <Popover open={open}>
@@ -13,4 +13,4 @@ const UpPopOver = (props: UpPopoverProps) => {
   )
 }
 
-export default UpPopOver
+export default EcPopOver;
