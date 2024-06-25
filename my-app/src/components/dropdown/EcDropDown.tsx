@@ -3,7 +3,7 @@ import React from 'react'
 import { UpDropDownProps } from './types'
 import { MenuItem } from '@mui/material'
 
-const UpDropDown = (props: UpDropDownProps) => {
+const EcDropDown = (props: UpDropDownProps) => {
     const {children} = props;
   return (
     <MenuItem>
@@ -12,4 +12,4 @@ const UpDropDown = (props: UpDropDownProps) => {
   )
 }
 
-export default UpDropDown
+export default EcDropDown;

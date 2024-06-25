@@ -1,5 +1,5 @@
 import React from 'react';
 
-export interface UpFormsProps {
+export interface EcFormsProps {
     children: string | React.ReactNode;
 }

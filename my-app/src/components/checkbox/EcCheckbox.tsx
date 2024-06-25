@@ -3,7 +3,7 @@ import { CheckBox } from '@mui/icons-material'
 import React from 'react'
 import { UpCheckBoxProps } from './types'
 
-const UpCheckbox = (props: UpCheckBoxProps) => {
+const EcCheckbox = (props: UpCheckBoxProps) => {
     const {children} = props;
   return (
     <CheckBox>
@@ -12,4 +12,4 @@ const UpCheckbox = (props: UpCheckBoxProps) => {
   )
 }
 
-export default UpCheckbox
+export default EcCheckbox;

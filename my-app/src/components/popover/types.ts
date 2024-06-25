@@ -1,6 +1,6 @@
 import React from 'react';
 
-export interface UpPopoverProps {
+export interface EcPopoverProps {
     children: string | React.ReactNode;
     open: boolean;
 }

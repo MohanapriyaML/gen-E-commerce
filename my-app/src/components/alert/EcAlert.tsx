@@ -3,7 +3,7 @@ import { Alert, AlertTitle } from '@mui/material'
 import React from 'react'
 import { UpAlertProps } from './types'
 
-const UpAlert = (props: UpAlertProps) => {
+const EcAlert = (props: UpAlertProps) => {
   const {children} = props;
   return (
     <Alert>
@@ -13,4 +13,4 @@ const UpAlert = (props: UpAlertProps) => {
   )
 }
 
-export default UpAlert
+export default EcAlert;

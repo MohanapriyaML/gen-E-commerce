@@ -3,7 +3,7 @@ import { Dialog } from '@mui/material'
 import React from 'react'
 import { UpDialogProps } from './types';
 
-const UpDialog = (props: UpDialogProps) => {
+const EcDialog = (props: UpDialogProps) => {
     const {children,open} = props;
   return (
     <Dialog open={open}>
@@ -12,4 +12,4 @@ const UpDialog = (props: UpDialogProps) => {
   )
 }
 
-export default UpDialog
+export default EcDialog;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export interface UpImageProps {
+export interface EcImageProps {
     children: string | React.ReactNode;
     alt: string;
     height?: number | string;

@@ -1,9 +1,9 @@
 "use client"
 import React from 'react'
-import { UpInputProps } from './types'
 import { FormControl} from '@mui/material'
+import { EcInputProps } from './types';
 
-const UpInputs = (props: UpInputProps) => {
+const EcInputs = (props: EcInputProps) => {
     const {children} = props;
   return (
     <FormControl>
@@ -12,4 +12,4 @@ const UpInputs = (props: UpInputProps) => {
   )
 }
 
-export default UpInputs
+export default EcInputs;
